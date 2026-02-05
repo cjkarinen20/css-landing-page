@@ -1,29 +1,89 @@
 *{
-
+    font-family: 'Roboto', sans-serif;
+}
+.header, 
+.hero-section,
+.footer{
+    background-color: #1f2937;
+}
+/*-----Hero-Section-----*/
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+.links ul{
+    list-style-type: none;
+}
+.links a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.hero-text-1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.hero-text-2{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero-section .button-container .hero-button{
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 50;
+    background-color:#3882f6;
 }
 
-/*-----Hero-Section-----*/
-
-
-
-
-
 /*-----Gallery-Section-----*/
-
-
-
-
+.gallery-section p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.info-header{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
 
 /*-----Quote-Section-----*/
-
-
-
-
+.quote-section{
+    background-color: #e5e7eb;
+}
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+.author{
+    font-size: 24px;
+    font-weight: 900;
+}
 
 /*-----Banner-Section-----*/
+.banner{
+    background-color: #3882f6
+}
+.banner-button{
+    color: #3882f6;
+}
+.banner-text-1{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+.banner-text-2,
+.banner-button{
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 50;
 
-
-
-
-
+}
+.banner .button-container .banner-button{
+    background-color:#3882f6;
+}
 /*-----Footer-Section-----*/
+.footer-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
