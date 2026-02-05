@@ -1,12 +1,20 @@
 *{
     font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
 }
 .hero-section,
 .footer{
     background-color: #1f2937;
-    margin: 0;
 }
 /*-----Hero-Section-----*/
+.hero-section{
+    margin: 0;
+    padding: 0;
+}
 .header{
     display: flex;
     justify-content: space-between;
@@ -94,6 +102,13 @@
     background-color:#3882f6;
 }
 /*-----Footer-Section-----*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 25px;
+}
 .footer-text{
     font-size: 18px;
     color: #e5e7eb;
