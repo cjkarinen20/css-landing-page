@@ -38,14 +38,23 @@ body{
     color: #e5e7eb;
     text-decoration: none;
 }
+.hero-content{
+    padding: 10px 150px 10px 150px
+}
+.hero-image{
+    height: 200px;
+    width: 400px;
+}
 .hero-text-1{
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    margin: 0
 }
 .hero-text-2{
     font-size: 18px;
     color: #e5e7eb;
+    margin: 0;
 }
 .hero-content .button-container .hero-button{
     font-size: 18px;
@@ -58,6 +67,10 @@ body{
 .gallery-section p{
     font-size: 18px;
     font-weight: 300;
+}
+.gallery-container img{
+    height: 100px;
+    width: 100px;
 }
 .info-header{
     font-size: 36px;
