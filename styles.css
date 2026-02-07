@@ -67,15 +67,29 @@ body{
 .gallery-section p{
     font-size: 18px;
     font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gallery-container{
+    display: flex;
+    justify-content: space-evenly;
 }
 .gallery-container img{
     height: 100px;
     width: 100px;
+    justify-self: center;
+    align-self: center;
+}
+.gallery-container p{
+    text-align: center;
+    text-wrap: wrap;
 }
 .info-header{
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    text-align: center;
 }
 
 /*-----Quote-Section-----*/
