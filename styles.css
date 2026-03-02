@@ -2,122 +2,200 @@
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
+
 body{
     margin: 0;
     padding: 0;
 }
-.hero-section,
-.footer{
+
+.header, .hero-section, .footer{
     background-color: #1f2937;
 }
-/*-----Hero-Section-----*/
-.hero-section{
-    margin: 0;
-    padding: 0;
-}
+
+/*-----Header-Section-----*/
+
 .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 150px 10px 150px;
+    padding: 10px 470px 10px 425px;
     margin: 0;
+    /* border: 5px solid greenyellow; */
 }
+
+/*-----Hero-Section-----*/
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    align-content: center;
+    padding-bottom: 50px;
+    /* border: 5px solid greenyellow;*/
+    flex-direction: row;
+}
+
 .logo{
     font-size: 24px;
     color: #f9faf8;
+    /* border: 5px solid orange; */
 }
+
 .links ul{
     list-style-type: none;
     display: flex;
     gap: 20px;
     padding: 0;
     margin: 0;
+    /* border: 5px solid orange; */
 }
+
 .links a{
     font-size: 18px;
     color: #e5e7eb;
     text-decoration: none;
 }
+
 .hero-content{
-    padding: 10px 150px 10px 150px
+    padding: 10px 5px 10px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    /* border: 5px solid greenyellow; */
+    flex-direction: column;
 }
+
 .hero-image{
-    height: 200px;
-    width: 400px;
+    height: 250px;
+    width: 550px;
+    margin: 50px;
+    /* border: 5px solid blueviolet; */
 }
+
+.hero-image-container{
+    display: flex;
+    justify-self: flex-end;
+    align-items: center;
+    /* border: 5px solid greenyellow; */
+}
+
 .hero-text-1{
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
-    margin: 0
+    margin: 0;
+    text-align: left;
+    max-width: 410px;
+    /* border: 5px solid blueviolet; */
 }
+
 .hero-text-2{
     font-size: 18px;
     color: #e5e7eb;
     margin: 0;
+    margin-bottom: 10px;
+    text-align: left;
+    max-width: 480px;
+    /* border: 5px solid blueviolet; */
 }
-.hero-content .button-container .hero-button{
+
+.button-container{
+    /* border: 5px solid lightblue; */
+}
+
+.hero-button{
     font-size: 18px;
     color: #e5e7eb;
     font-weight: 50;
     background-color:#3882f6;
+    border-color: #3882f6;
+    border-radius: 8px;
+    padding: 8px 35px 8px 35px;
 }
 
 /*-----Gallery-Section-----*/
+
 .gallery-section p{
     font-size: 18px;
     font-weight: 300;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    gap: 52px;
+    /* border: 5px solid greenyellow; */
 }
+
 .gallery-container{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 25px;
+    /* border: 5px solid greenyellow; */
 }
+
 .gallery-container img{
     height: 100px;
     width: 100px;
-    justify-self: center;
-    align-self: center;
+    /* border: 5px solid greenyellow; */
 }
+
 .gallery-container p{
     text-align: center;
     text-wrap: wrap;
+    /* bor
+    der: 5px solid greenyellow; */
 }
+
+.info{
+    max-width: 100 px;
+    flex: display;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    /* border: 5px solid greenyellow; */
+}
+
+
 .info-header{
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
     text-align: center;
+    /* border: 5px solid rgb(255, 47, 210); */
 }
 
 /*-----Quote-Section-----*/
+
 .quote-section{
     background-color: #e5e7eb;
 }
+
 .quote{
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
 }
+
 .author{
     font-size: 24px;
     font-weight: 900;
 }
 
 /*-----Banner-Section-----*/
+
 .banner{
     background-color: #3882f6
 }
+
 .banner-button{
     color: #3882f6;
 }
+
 .banner-text-1{
     font-size: 24px;
     color: #f9faf8;
     font-weight: 800;
 }
+
 .banner-text-2,
 .banner-button{
     font-size: 18px;
@@ -125,10 +203,13 @@ body{
     font-weight: 50;
 
 }
+
 .banner .button-container .banner-button{
     background-color:#3882f6;
 }
+
 /*-----Footer-Section-----*/
+
 .footer{
     display: flex;
     justify-content: center;
@@ -136,6 +217,7 @@ body{
     margin: 0;
     padding: 25px;
 }
+
 .footer-text{
     font-size: 18px;
     color: #e5e7eb;
