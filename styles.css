@@ -37,6 +37,7 @@ body{
 
 .logo{
     font-size: 24px;
+    font-weight: 900;
     color: #f9faf8;
     /* border: 5px solid orange; */
 }
@@ -86,6 +87,7 @@ body{
     margin: 0;
     text-align: left;
     max-width: 410px;
+    line-height: 1;
     /* border: 5px solid blueviolet; */
 }
 
@@ -93,9 +95,11 @@ body{
     font-size: 18px;
     color: #e5e7eb;
     margin: 0;
+    margin-top: 10px;
     margin-bottom: 10px;
     text-align: left;
     max-width: 480px;
+    padding-bottom: 5px;
     /* border: 5px solid blueviolet; */
 }
 
@@ -120,7 +124,7 @@ body{
     font-weight: 300;
     display: flex;
     gap: 52px;
-    /* border: 5px solid greenyellow; */
+    border: 5px solid greenyellow;
 }
 
 .gallery-container{
@@ -129,20 +133,19 @@ body{
     align-content: center;
     justify-content: center;
     gap: 25px;
-    /* border: 5px solid greenyellow; */
+    border: 5px solid greenyellow;
 }
 
 .gallery-container img{
     height: 100px;
     width: 100px;
-    /* border: 5px solid greenyellow; */
+    border: 5px solid greenyellow;
 }
 
 .gallery-container p{
     text-align: center;
     text-wrap: wrap;
-    /* bor
-    der: 5px solid greenyellow; */
+    border: 5px solid greenyellow;
 }
 
 .info{
@@ -151,7 +154,7 @@ body{
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    /* border: 5px solid greenyellow; */
+    border: 5px solid greenyellow;
 }
 
 
@@ -160,24 +163,38 @@ body{
     color: #1f2937;
     font-weight: 900;
     text-align: center;
-    /* border: 5px solid rgb(255, 47, 210); */
+    border: 5px solid rgb(255, 47, 210);
 }
 
 /*-----Quote-Section-----*/
 
 .quote-section{
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid greenyellow;
+    margin: 25px 0px 25px 0px;
+    padding: 100px 200px 100px 200px;
 }
 
 .quote{
     font-size: 36px;
+    max-width: 800px;
+    margin: 0;
     color: #1f2937;
     font-weight: 300;
+    border: 5px solid greenyellow;
 }
 
 .author{
     font-size: 24px;
+    max-width: 800px;
     font-weight: 900;
+    margin: 0;
+    text-align: right;
+    border: 5px solid greenyellow;
 }
 
 /*-----Banner-Section-----*/
